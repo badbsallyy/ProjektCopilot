@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "BaddestDeals - Die besten Deals & Schnäppchen",
@@ -20,11 +21,7 @@ export default function RootLayout({
           <div className="min-h-screen flex flex-col">
             <Header />
             <main className="flex-1">{children}</main>
-            <footer className="border-t py-6 md:py-8">
-              <div className="container text-center text-sm text-muted-foreground">
-                <p>© 2024 BaddestDeals. Alle Rechte vorbehalten.</p>
-              </div>
-            </footer>
+            <Footer />
           </div>
         </ThemeProvider>
       </body>
