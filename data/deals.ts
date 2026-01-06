@@ -20,7 +20,7 @@ export const deals: Deal[] = [
     price: 229,
     oldPrice: 299,
     category: "tech",
-    image: "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=800&auto=format&fit=crop",
+    image: "data:image/svg+xml,%3Csvg width='800' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='800' height='600' fill='%23f3f4f6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%23374151'%3EAirPods Pro%3C/text%3E%3C/svg%3E",
     createdAt: "2026-01-06T15:00:00Z",
     affiliateUrl: "https://www.amazon.de/dp/B0CHWRXH8B"
   },
@@ -32,7 +32,7 @@ export const deals: Deal[] = [
     price: 549,
     oldPrice: 749,
     category: "haushalt",
-    image: "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&auto=format&fit=crop",
+    image: "data:image/svg+xml,%3Csvg width='800' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='800' height='600' fill='%23dbeafe'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%231e40af'%3EDyson V15%3C/text%3E%3C/svg%3E",
     createdAt: "2026-01-06T14:30:00Z",
     affiliateUrl: "https://www.amazon.de/dp/B08XQWF6JV"
   },
@@ -44,7 +44,7 @@ export const deals: Deal[] = [
     price: 89.99,
     oldPrice: 150,
     category: "fashion",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop",
+    image: "data:image/svg+xml,%3Csvg width='800' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='800' height='600' fill='%23fce7f3'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%239d174d'%3ENike Air Max%3C/text%3E%3C/svg%3E",
     createdAt: "2026-01-06T13:45:00Z",
     affiliateUrl: "https://www.nike.com/de/t/air-max-270"
   },
@@ -56,7 +56,7 @@ export const deals: Deal[] = [
     price: 399,
     oldPrice: 449,
     category: "gaming",
-    image: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&auto=format&fit=crop",
+    image: "data:image/svg+xml,%3Csvg width='800' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='800' height='600' fill='%23e0e7ff'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%233730a3'%3EPlayStation 5%3C/text%3E%3C/svg%3E",
     createdAt: "2026-01-06T12:00:00Z",
     affiliateUrl: "https://www.playstation.com/de-de/ps5/"
   },
@@ -68,7 +68,7 @@ export const deals: Deal[] = [
     price: 319,
     oldPrice: 429,
     category: "tech",
-    image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&auto=format&fit=crop",
+    image: "data:image/svg+xml,%3Csvg width='800' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='800' height='600' fill='%23f3f4f6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%23374151'%3EGalaxy Watch%3C/text%3E%3C/svg%3E",
     createdAt: "2026-01-06T11:15:00Z",
     affiliateUrl: "https://www.samsung.com/de/watches/galaxy-watch/"
   },
@@ -80,7 +80,7 @@ export const deals: Deal[] = [
     price: 129.99,
     oldPrice: 199.99,
     category: "haushalt",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop",
+    image: "data:image/svg+xml,%3Csvg width='800' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='800' height='600' fill='%23dbeafe'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%231e40af'%3EPhilips Hue%3C/text%3E%3C/svg%3E",
     createdAt: "2026-01-06T10:30:00Z",
     affiliateUrl: "https://www.philips-hue.com/de-de"
   },
@@ -92,7 +92,7 @@ export const deals: Deal[] = [
     price: 69.99,
     oldPrice: 109.99,
     category: "fashion",
-    image: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&auto=format&fit=crop",
+    image: "data:image/svg+xml,%3Csvg width='800' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='800' height='600' fill='%23fce7f3'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%239d174d'%3ELevi's 501%3C/text%3E%3C/svg%3E",
     createdAt: "2026-01-06T09:00:00Z",
     affiliateUrl: "https://www.levi.com/DE/de_DE/"
   },
@@ -104,7 +104,7 @@ export const deals: Deal[] = [
     price: 159.99,
     oldPrice: 229.99,
     category: "gaming",
-    image: "https://images.unsplash.com/photo-1595225476474-87563907a212?w=800&auto=format&fit=crop",
+    image: "data:image/svg+xml,%3Csvg width='800' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='800' height='600' fill='%23e0e7ff'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%233730a3'%3ERazer BlackWidow%3C/text%3E%3C/svg%3E",
     createdAt: "2026-01-06T08:00:00Z",
     affiliateUrl: "https://www.razer.com/de-de/gaming-keyboards"
   }
