@@ -9,12 +9,17 @@ import { Button } from "@/components/ui/button";
 
 export async function generateStaticParams() {
   return mockDeals.map((deal) => ({
-    id: deal.id,
+    id: String(deal.id),
   }));
 }
 
-export default function DealDetailPage({ params }: { params: { id: string } }) {
-  const deal = mockDeals.find((d) => d.id === params.id);
+export default async function DealDetailPage({ 
+  params 
+}: { 
+  params: Promise<{ id: string }> 
+}) {
+  const { id } = await params;
+  const deal = mockDeals.find((d) => d.id === id);
 
   if (!deal) {
     notFound();

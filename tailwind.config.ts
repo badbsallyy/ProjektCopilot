@@ -76,6 +76,7 @@ const config: Config = {
       },
     },
   },
+  // Note: line-clamp utilities are included by default in Tailwind CSS v3.3+
   plugins: [],
 }
 
