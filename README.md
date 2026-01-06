@@ -1,4 +1,4 @@
-# 🔥 DealsHub - Deals Blog
+# 📰 BaddestDeals - Deals Blog
 
 A clean, modern deals blog inspired by mydealz.de, built with Next.js 14, TypeScript, Tailwind CSS, and shadcn/ui components.
 
